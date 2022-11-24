@@ -64,3 +64,26 @@ if(a==b || c==d) {
 if((a==b || c==d) && a==c) {
   alert("KO");
 }
+
+/**
+ * SWITCH(DONNEE)
+ * {
+ * CASE DONNEE :
+ * CODE
+ * BREACK;
+ * }
+ * 
+ */
+
+var salutation = "Hello";
+
+switch (salutation) {
+  case "salutation":
+    alert("Hello");
+    break;
+    case "Bonjour":
+      alert("Bonjour");
+    break;
+  default:
+    alert("Bonsoir")
+}
