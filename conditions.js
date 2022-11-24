@@ -87,3 +87,15 @@ switch (salutation) {
   default:
     alert("Bonsoir")
 }
+
+/**
+ * TERNAIRE
+ * 
+ * (DONDITION) ? true : false;
+ */
+
+var resultat = (a==b) ? "OK" : "KO";
+alert("resultat");
+
+var resultat = (a==b) ? ((c==d) ? "OK" : "KO" ): "KO";
+alert("resultat");
